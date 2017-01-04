@@ -1,0 +1,23 @@
+﻿<Window x:Name="BSinCS" x:Class="BSinCS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BSinCS"
+        mc:Ignorable="d"
+        Title="BSinCS" Height="350" Width="525" WindowStartupLocation="CenterScreen" Cursor="Arrow">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="CSULBMap3.png" Opacity="0.25"/>
+        </Grid.Background>
+        <Button Content="Done!" Click="ButtonClicked" Height="25" HorizontalAlignment="Left" Margin="210,266,0,0" x:Name="Name_Button" VerticalAlignment="Top" Width="100" Cursor="Hand" IsEnabled="{Binding ElementName=Name_Box,Path=Text.Length}" Background="#FFA8A5A5" BorderBrush="#FF0A0909" FontWeight="Bold" />
+        <Label x:Name="label" Content="Enter Player Name" HorizontalAlignment="Left" Height="51" Margin="144,70,0,0" VerticalAlignment="Top" Width="292" Cursor="Arrow" FontWeight="Bold" FontFamily="MV Boli" FontSize="26.667" FontStretch="Condensed"/>
+        <TextBox x:Name="Name_Box" HorizontalAlignment="Left" Height="55" Margin="65,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="390" BorderBrush="#FF222C4B" Cursor="Pen" ToolTip="Enter Player Name" BorderThickness="7" MaxLength="100" TextInput="NameBox_TextInput" FontFamily="Segoe UI Black" FontSize="24" FontWeight="Bold" FontStretch="SemiExpanded" MouseDown="Name_Box_MouseDown">
+            <TextBox.CaretBrush>
+                <ImageBrush/>
+            </TextBox.CaretBrush>
+        </TextBox>
+        <CheckBox x:Name="checkBox" Content="Feeling lazy!!!" HorizontalAlignment="Left" Margin="65,198,0,0" VerticalAlignment="Top" Width="137" Height="26" FontWeight="Bold" FontStyle="Italic" Checked="checkBox_Checked" Unchecked="checkBox_Unchecked"/>
+        <CheckBox x:Name="Random" Content="Select Player Randomly" HorizontalAlignment="Left" Margin="283,198,0,0" VerticalAlignment="Top" Checked="checkBox1_Checked" FontWeight="Bold" FontStyle="Italic"/>
+    </Grid>
+</Window>

@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSinCS", "BSinCS\BSinCS.csproj", "{2AC3E829-6B6D-4689-8FD0-C7025B6CD4B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{7475E6DB-4C4B-4C18-96DD-F9B2EE01886B}"
+	ProjectSection(SolutionItems) = preProject
+		BSinCS\CSULBMap3.png = BSinCS\CSULBMap3.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cards", "Cards", "{79969C3F-0BCC-4A09-904C-A3370B3EC42E}"
+	ProjectSection(SolutionItems) = preProject
+		BSinCS\Cards\Year 1 CECS 100.png = BSinCS\Cards\Year 1 CECS 100.png
+		BSinCS\Cards\Year 1 Good bye, Professor.png = BSinCS\Cards\Year 1 Good bye, Professor.png
+		BSinCS\Cards\Year 1 Meet the Dean.png = BSinCS\Cards\Year 1 Meet the Dean.png
+		BSinCS\Cards\Year 1 The Outpost.png = BSinCS\Cards\Year 1 The Outpost.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AC3E829-6B6D-4689-8FD0-C7025B6CD4B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AC3E829-6B6D-4689-8FD0-C7025B6CD4B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AC3E829-6B6D-4689-8FD0-C7025B6CD4B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AC3E829-6B6D-4689-8FD0-C7025B6CD4B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{79969C3F-0BCC-4A09-904C-A3370B3EC42E} = {7475E6DB-4C4B-4C18-96DD-F9B2EE01886B}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://gauravpalande147.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BSinCS\\BSinCS.csproj
+		SccProjectName1 = BSinCS
+		SccLocalPath1 = BSinCS
+	EndGlobalSection
+EndGlobal
