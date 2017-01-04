@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel;
 using PlayerModel;
+using CardModel;
 
 namespace RoomModel
 {
@@ -43,6 +44,18 @@ namespace RoomModel
             {
                 _accessibleRooms = value;
                 RaisePropertyChanged("AccessibleRooms");
+            }
+        }
+
+        private Card _roomCard;
+
+        public Card RoomCard
+        {
+            get { return _roomCard; }
+            set
+            {
+                _roomCard = value;
+                RaisePropertyChanged("RoomCard");
             }
         }
 

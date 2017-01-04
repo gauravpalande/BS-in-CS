@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BSinCS.App" Collapsed="true">
+    <Position X="115.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BSinCS.BSinCSSettings" Collapsed="true">
+    <Position X="117.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAkAAAGAAAgQAACgIAAAgAABAAQAAAAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BSinCS.GameComplete" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="119" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>GameComplete.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BSinCS.GameWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="120.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UQHHHJ0oUCHnZwXKgmuqhwaEgCg8AuCcVBgAnCw2Y9E=</HashCode>
+      <FileName>GameWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BSinCS.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="115.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAABAAAAAAAAAAAAAAAgAEAAAAgAAAAgA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BSinCS.RemoveFromHand" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="120.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>RemoveFromHand.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BSinCS.RewardSelection" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="117.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAgAAAQAAAAAAABAAAAAAA=</HashCode>
+      <FileName>RewardSelection.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ANewLaptopClass.ANewLaptop" Collapsed="true">
+    <Position X="88.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\ANewLaptopClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BuddyUpClass.BuddyUp" Collapsed="true">
+    <Position X="101.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\BuddyUpClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CarPoolClass.CarPool" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\CarPoolClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CECS100Class.CECS100" Collapsed="true">
+    <Position X="14" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\CECS100Class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CECS105Class.CECS105" Collapsed="true">
+    <Position X="27.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\CECS105Class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CECS201Class.CECS201" Collapsed="true">
+    <Position X="41" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\CECS201Class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CECS228Class.CECS228" Collapsed="true">
+    <Position X="54.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\CECS228Class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CECS274Class.CECS274" Collapsed="true">
+    <Position X="65.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\CECS274Class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CECS277Class.CECS277" Collapsed="true">
+    <Position X="77" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\CECS277Class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CECS282Class.CECS282" Collapsed="true">
+    <Position X="90.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\CECS282Class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CECS285Class.CECS285" Collapsed="true">
+    <Position X="104" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\CECS285Class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CHEM111Class.CHEM111" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\CHEM111Class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChoosingAMajorClass.ChoosingAMajor" Collapsed="true">
+    <Position X="16.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\ChoosingAMajorClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElectiveClassClass.ElectiveClass" Collapsed="true">
+    <Position X="29.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\ElectiveClassClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ENGL317Class.ENGL317" Collapsed="true">
+    <Position X="43.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\ENGL317Class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnjoyingNatureClass.EnjoyingNature" Collapsed="true">
+    <Position X="56.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\EnjoyingNatureClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EnjoyingthePeaceClass.EnjoyingthePeace" Collapsed="true">
+    <Position X="68" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\EnjoyingThePeaceClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExerciseMindAndBodyClass.ExerciseMindAndBody" Collapsed="true">
+    <Position X="79.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\ExerciseMindAndBodyClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FallInThePondClass.FallInThePond" Collapsed="true">
+    <Position X="92.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\FallInThePondClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FindingTheLabClass.FindingTheLab" Collapsed="true">
+    <Position X="106.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\FindingTheLabClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GoodbyeProfessorClass.GoodbyeProfessor" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\GoodByeProfessorClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HaveASwimClass.HaveASwim" Collapsed="true">
+    <Position X="18.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\HaveASwimClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KIN253Class.KIN253" Collapsed="true">
+    <Position X="32" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\KIN253Class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LateForCLassClass.LateForCLass" Collapsed="true">
+    <Position X="45.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\LateForClassClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LBSUvsUCIClass.LBSUvsUCI" Collapsed="true">
+    <Position X="59" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\LBSUvsUCIClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearningLinuxClass.LearningLinux" Collapsed="true">
+    <Position X="70.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\LearningLinuxClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LearningNetbeansClass.LearningNetbeans" Collapsed="true">
+    <Position X="81.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\LearningNetbeansClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LoudBuzzingClass.LoudBuzzing" Collapsed="true">
+    <Position X="95" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\LoudBuzzingClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LunchAtBratwurstHallClass.LunchAtBratwurstHall" Collapsed="true">
+    <Position X="108.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\LunchAtBratwurstHallClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MakeAFriendClass.MakeAFriend" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\MakeAFriendClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MakeTheDeansListClass.MakeTheDeansList" Collapsed="true">
+    <Position X="20.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\MakeTheDeansListClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Math122Class.Math122" Collapsed="true">
+    <Position X="34.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\Math122Class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Math123Class.Math123" Collapsed="true">
+    <Position X="47.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\Math123Class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeetTheDeanClass.MeetTheDean" Collapsed="true">
+    <Position X="61.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\MeetTheDeanClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OralCommunicationClass.OralCommunication" Collapsed="true">
+    <Position X="72.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\OralCommunicationClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParkingViolationClass.ParkingViolation" Collapsed="true">
+    <Position X="83.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\ParkingViolationClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PassSoccerClassClass.PassSoccerClass" Collapsed="true">
+    <Position X="97.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\PassSoccerClassClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PHIL270Class.PHIL270" Collapsed="true">
+    <Position X="110.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\PHIL270Class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PHYS152Class.PHYS152" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\PHYS152Class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Physics151Class.Physics151" Collapsed="true">
+    <Position X="23" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\Physics151Class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PressTheRightFloorClass.PressTheRightFloor" Collapsed="true">
+    <Position X="36.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\PressTheRightFloorClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProfessorEnglertClass.ProfessorEnglert" Collapsed="true">
+    <Position X="50" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\ProfessorEnglertClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProfessorHoffmanClass.ProfessorHoffman" Collapsed="true">
+    <Position X="63.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\ProfessorHoffmanClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProfessorMurgolosClass.ProfessorMurgolos" Collapsed="true">
+    <Position X="74.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\ProfessorMurgolosClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProgramCrashesClass.ProgramCrashes" Collapsed="true">
+    <Position X="86" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\ProgramCrashesClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ResearchCompilersClass.ResearchCompilers" Collapsed="true">
+    <Position X="99.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\ResearchCompilersClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScoreaGoalClass.ScoreaGoal" Collapsed="true">
+    <Position X="113" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\ScoreaGoalClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SoccerGoalieClass.SoccerGoalie" Collapsed="true">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\SoccerGoalieClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentParkingClass.StudentParking" Collapsed="true">
+    <Position X="25.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\StudentParkingClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheBigGameClass.TheBigGame" Collapsed="true">
+    <Position X="38.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\TheBigGameClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TheOutpostClass.TheOutpost" Collapsed="true">
+    <Position X="52.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>CardsClasses\TheOutpostClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CardModel.Card" Collapsed="true">
+    <Position X="56.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>Model\CardModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PlayerModel.Player" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="117.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAIACACIAAgwQAQAAAAgAgAAAEAAAAwgAAAYAIAE=</HashCode>
+      <FileName>Model\PlayerModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RemoveModel.Remove" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="119" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAgAQAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Model\RemoveModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="RoomModel.Room" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="119" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAACAAAAAAAAAAAAIgAAgBAAAgAAAAAAEBAAgAA=</HashCode>
+      <FileName>Model\RoomModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ScoreModel.Score" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="120.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAKACAAgEAAAAIAAAAAAAgAAAgAAIAAAAAQQAAAA=</HashCode>
+      <FileName>Model\ScoreModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BSinCS.Properties.Resources" Collapsed="true">
+    <Position X="115.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BSinCS.Properties.Settings" Collapsed="true">
+    <Position X="115.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="CardInterface.ICard" Collapsed="true">
+    <Position X="115.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACBAAAAAgAAABAAAAAgBABAAEAAQQ=</HashCode>
+      <FileName>Model\CardInterface.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

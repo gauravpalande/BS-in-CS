@@ -6,16 +6,40 @@
       <Value Profile="(Default)">Micheal</Value>
     </Setting>
     <Setting Name="AI1_Name" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">Donald</Value>
+      <Value Profile="(Default)">Gagandeep</Value>
     </Setting>
     <Setting Name="AI2_Name" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">Hillary</Value>
+      <Value Profile="(Default)">Gaurav</Value>
     </Setting>
     <Setting Name="IsRandom" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>
     <Setting Name="FalseRandom" Type="System.Boolean" Scope="Application">
       <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="SelectedChip" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ChipsToChoose" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ShouldRemoveCard" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="CardsInHand" Type="System.Collections.Specialized.StringCollection" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="CardToRemove" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Teleport" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="TeleportRoom" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Winner" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
     </Setting>
   </Settings>
 </SettingsFile>

@@ -1,0 +1,33 @@
+﻿<Window x:Class="BSinCS.RewardSelection"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BSinCS"
+        mc:Ignorable="d"
+        Title="RewardSelection" Height="350" Width="525" WindowStartupLocation="CenterScreen" Cursor="Arrow">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/CSULBMap3.png" Opacity="0.25"/>
+        </Grid.Background>
+        <Label x:Name="label" Content="Select Reward Chip!" HorizontalAlignment="Left" Height="51" Margin="94,62,0,0" VerticalAlignment="Top" Width="318" Cursor="Arrow" FontWeight="Bold" FontFamily="Showcard Gothic" FontSize="26.667" FontStretch="Condensed"/>
+        <Label x:Name="SelectionLabel" HorizontalAlignment="Left" Margin="193,233,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="ContinueButton" Content="Continue" HorizontalAlignment="Left" Margin="181,258,0,0" VerticalAlignment="Top" Width="152" Height="39" FontWeight="Bold" 
+                FontFamily="Showcard Gothic" FontSize="26.667" FontStretch="Condensed" Background="#FF555353" Cursor="Hand" Click="ContinueButton_Click"/>
+        <Button x:Name="CraftButton" HorizontalAlignment="Left" Margin="30,113,0,0" VerticalAlignment="Top" Width="98" Height="105" Click="CraftButton_Click" Cursor="Hand" ToolTip="CRAFT CHIP">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/Craft.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="IntegrityButton" HorizontalAlignment="Left" Margin="204,113,0,0" VerticalAlignment="Top" Width="98" Height="105" Click="IntegrityButton_Click" Cursor="Hand" ToolTip="INTEGRITY CHIP">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/Integrity.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="LearningButton" HorizontalAlignment="Left" Margin="381,113,0,0" VerticalAlignment="Top" Width="98" Height="105" Click="LearningButton_Click" Cursor="Hand" ToolTip="LEARNING CHIP">
+            <Button.Background>
+                <ImageBrush ImageSource="Images/Learning.png"/>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Window>

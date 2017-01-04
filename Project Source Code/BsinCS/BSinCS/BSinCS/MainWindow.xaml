@@ -8,10 +8,10 @@
         Title="BSinCS" Height="350" Width="525" WindowStartupLocation="CenterScreen" Cursor="Arrow">
     <Grid>
         <Grid.Background>
-            <ImageBrush ImageSource="CSULBMap3.png" Opacity="0.25"/>
+            <ImageBrush ImageSource="/Images/CSULBMap3.png" Opacity="0.25"/>
         </Grid.Background>
         <Button Content="Done!" Click="ButtonClicked" Height="25" HorizontalAlignment="Left" Margin="210,266,0,0" x:Name="Name_Button" VerticalAlignment="Top" Width="100" Cursor="Hand" IsEnabled="{Binding ElementName=Name_Box,Path=Text.Length}" Background="#FFA8A5A5" BorderBrush="#FF0A0909" FontWeight="Bold" />
-        <Label x:Name="label" Content="Enter Player Name" HorizontalAlignment="Left" Height="51" Margin="144,70,0,0" VerticalAlignment="Top" Width="292" Cursor="Arrow" FontWeight="Bold" FontFamily="MV Boli" FontSize="26.667" FontStretch="Condensed"/>
+        <Label x:Name="label" Content="Enter Player Name" HorizontalAlignment="Left" Height="51" Margin="144,70,0,0" VerticalAlignment="Top" Width="292" Cursor="Arrow" FontWeight="Bold" FontFamily="Showcard Gothic" FontSize="26.667" FontStretch="Condensed"/>
         <TextBox x:Name="Name_Box" HorizontalAlignment="Left" Height="55" Margin="65,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="390" BorderBrush="#FF222C4B" Cursor="Pen" ToolTip="Enter Player Name" BorderThickness="7" MaxLength="100" TextInput="NameBox_TextInput" FontFamily="Segoe UI Black" FontSize="24" FontWeight="Bold" FontStretch="SemiExpanded" MouseDown="Name_Box_MouseDown">
             <TextBox.CaretBrush>
                 <ImageBrush/>

@@ -1,0 +1,28 @@
+﻿<Window x:Class="BSinCS.RemoveFromHand"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BSinCS"
+        mc:Ignorable="d"
+        Title="RemoveFromHand" Height="498.897" Width="797.426" WindowStartupLocation="CenterScreen" Cursor="Arrow">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/CSULBMap3.png" Opacity="0.25"/>
+        </Grid.Background>
+        <Label x:Name="label" Content="Select Card To Remove!" HorizontalAlignment="Center" Height="51" Margin="204,33,204,0" VerticalAlignment="Top" Width="352" Cursor="Arrow" FontWeight="Bold" FontFamily="Showcard Gothic" FontSize="26.667" FontStretch="Condensed"/>
+        <Label x:Name="SelectionLabel" HorizontalAlignment="Center" Margin="177,391,172,0" VerticalAlignment="Top" Height="24" Width="440" HorizontalContentAlignment="Center"/>
+        <Button x:Name="RemoveButton" Content="Remove" HorizontalAlignment="Center" Margin="299,420,309,0" VerticalAlignment="Top" Width="152" Height="39" FontWeight="Bold" 
+                FontFamily="Showcard Gothic" FontSize="26.667" FontStretch="Condensed" Background="#FF555353" Cursor="Hand" Click="RemoveButton_Click"/>
+        <ListBox x:Name="CardImages" HorizontalAlignment="Center" Height="280" VerticalAlignment="Center" Width="235"
+                 SelectionMode="Single" ItemsSource="{Binding}" SelectionChanged="CardImages_SelectionChanged">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Width="200" Orientation="Horizontal">
+                        <Image Source="{Binding Url, Mode=TwoWay}" Width="200"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </Grid>
+</Window>

@@ -1,0 +1,16 @@
+﻿<Window x:Class="BSinCS.GameComplete"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BSinCS"
+        mc:Ignorable="d"
+        Title="GameComplete" Height="350" Width="525" WindowStartupLocation="CenterScreen" Cursor="Arrow">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/CSULBMap3.png" Opacity="0.25"/>
+        </Grid.Background>
+        <Button Content="Hurray!" Height="25" HorizontalAlignment="Left" Margin="210,266,0,0" x:Name="End_Button" VerticalAlignment="Top" Width="100" Cursor="Hand" Background="#FFA8A5A5" BorderBrush="#FF0A0909" FontWeight="Bold" Click="End_Button_Click"/>
+        <TextBlock x:Name="WinnerLable" HorizontalAlignment="Left" Height="151" Margin="58,70,0,0" VerticalAlignment="Top" Width="403" Cursor="Arrow" FontWeight="Bold" FontFamily="Showcard Gothic" FontSize="26.667" FontStretch="Condensed"/>
+    </Grid>
+</Window>

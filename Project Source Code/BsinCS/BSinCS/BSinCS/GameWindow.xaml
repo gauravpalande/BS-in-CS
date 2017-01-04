@@ -9,7 +9,7 @@
     <Grid x:Name="GameGrid" Margin="0,0">
         <ScrollViewer Margin="0,0,0,256" Width="1366" VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Auto">
             <Canvas Height="2000" Width="1670" Margin="0,0" VerticalAlignment="Top">
-                <Image Source="CSULBMap3.png"/>
+                <Image Source="/Images/CSULBMap3.png"/>
                 <ListBox Name="George_Allen_Fieldtext" Canvas.Left="0" Canvas.Top="70" FontSize="20" FontStyle="Italic" Background="Transparent" BorderBrush="Transparent" Foreground="Red" DisplayMemberPath="PlayerName"/>
                 <ListBox Name="Japanese_GardenText" Canvas.Left="388" Canvas.Top="70" DisplayMemberPath="PlayerName" Background="Transparent" BorderBrush="Transparent" FontSize="20" FontStyle="Italic" Foreground="Red"/>
                 <ListBox Name="Walter_PyramidText" Canvas.Left="388" Canvas.Top="318" DisplayMemberPath="PlayerName" Background="Transparent" BorderBrush="Transparent" FontSize="20" FontStyle="Italic" Foreground="Red"/>
@@ -47,23 +47,34 @@
                 <ListBox Name="Bratwurst_HallText" Canvas.Left="986" Canvas.Top="1680" DisplayMemberPath="PlayerName" FontSize="30" FontStyle="Italic" Foreground="Red" Background="Transparent" BorderBrush="Transparent"/>
             </Canvas>
         </ScrollViewer>
-        <Button x:Name="DrawCardButton" Content="Draw Card" HorizontalAlignment="Left" Height="20" Margin="20,0,0,231" VerticalAlignment="Bottom" Width="135"/>
+        <Button x:Name="DrawCardButton" Content="Draw Card" HorizontalAlignment="Left" Height="20" Margin="20,0,0,231" VerticalAlignment="Bottom" Width="135" Click="DrawCardButton_Click"/>
         <Button x:Name="MoveButton" Content="Move" HorizontalAlignment="Left" Height="20" Margin="20,0,0,206" VerticalAlignment="Bottom" Width="135" Click="MoveButton_Click" IsEnabled="False"/>
-        <Button x:Name="PlayCardButton" Content="Play Card" HorizontalAlignment="Left" Height="20" Margin="20,0,0,181" VerticalAlignment="Bottom" Width="135" Click="PlayCardButton_Click"/>
+        <Button x:Name="PlayCardButton" Content="Play Card" HorizontalAlignment="Left" Height="20" Margin="20,0,0,181" VerticalAlignment="Bottom" Width="135" Click="PlayCardButton_Click" IsEnabled="False"/>
         <ListBox x:Name="RoomBox" HorizontalAlignment="Left" Height="166" Margin="20,0,0,10" VerticalAlignment="Bottom" Width="135" 
-                 SelectionMode="Single" ItemsSource="{Binding}" SelectionChanged="RoomBox_SelectionChanged">
+                 SelectionMode="Single" ItemsSource="{Binding}" SelectionChanged="RoomBox_SelectionChanged" IsEnabled="False">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <TextBlock Text="{Binding RoomName, Mode=TwoWay}"/>
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
-        <GroupBox x:Name="groupBox" Header="Card to Play:" HorizontalAlignment="Left" Margin="160,0,0,10" VerticalAlignment="Bottom" Width="200" Height="241">
-            <GroupBox.Background>
-                <ImageBrush ImageSource="Year 1 Meet the Dean.png"/>
-            </GroupBox.Background>
-        </GroupBox>
-        <TextBox x:Name="textBox" Height="174" Margin="365,0,10,77" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Bottom"/>
-        <TextBox x:Name="textBox1" Height="62" Margin="365,0,10,10" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Bottom"/>
+        <Image x:Name="HandBox" HorizontalAlignment="Left" Margin="160,0,0,10" VerticalAlignment="Bottom" Width="200" Height="241"
+                 Source="{Binding}" MouseDown="HandBox_MouseDown">
+        </Image>
+        <StackPanel Height="158" Margin="365,0,10,93" VerticalAlignment="Bottom">
+            <Grid>
+                <DataGrid x:Name="DataGrid" ItemsSource="{Binding}" IsReadOnly="False"/>
+            </Grid>
+            <Grid>
+                <StackPanel Orientation="Horizontal">
+                    <Label x:Name="UnusedLable" Content="{Binding}"/>
+                    <Label x:Name="DiscardedLable" Content="{Binding}"/>
+                </StackPanel>
+            </Grid>
+            <Grid>
+                <Label x:Name="IdentifierLable" Content="{Binding}"/>
+            </Grid>
+        </StackPanel>
+        <TextBox x:Name="StatusText" Height="78" Margin="365,0,10,10" VerticalAlignment="Bottom" IsReadOnly="True" ScrollViewer.VerticalScrollBarVisibility="Auto" TextWrapping="Wrap"/>
     </Grid>
 </Window>

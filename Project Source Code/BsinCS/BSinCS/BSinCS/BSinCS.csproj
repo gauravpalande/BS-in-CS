@@ -64,11 +64,78 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>BSinCSSettings.settings</DependentUpon>
     </Compile>
+    <Compile Include="CardsClasses\CECS228Class.cs" />
+    <Compile Include="CardsClasses\CECS282Class.cs" />
+    <Compile Include="CardsClasses\HaveASwimClass.cs" />
+    <Compile Include="CardsClasses\PHIL270Class.cs" />
+    <Compile Include="CardsClasses\CECS285Class.cs" />
+    <Compile Include="CardsClasses\PHYS152Class.cs" />
+    <Compile Include="CardsClasses\ENGL317Class.cs" />
+    <Compile Include="CardsClasses\CECS201Class.cs" />
+    <Compile Include="CardsClasses\CECS274Class.cs" />
+    <Compile Include="CardsClasses\CarPoolClass.cs" />
+    <Compile Include="CardsClasses\LBSUvsUCIClass.cs" />
+    <Compile Include="CardsClasses\MeetTheDeanClass.cs" />
+    <Compile Include="CardsClasses\Math123Class.cs" />
+    <Compile Include="CardsClasses\Math122Class.cs" />
+    <Compile Include="CardsClasses\MakeTheDeansListClass.cs" />
+    <Compile Include="CardsClasses\MakeAFriendClass.cs" />
+    <Compile Include="CardsClasses\LunchAtBratwurstHallClass.cs" />
+    <Compile Include="CardsClasses\LoudBuzzingClass.cs" />
+    <Compile Include="CardsClasses\LearningNetbeansClass.cs" />
+    <Compile Include="CardsClasses\LearningLinuxClass.cs" />
+    <Compile Include="CardsClasses\FindingTheLabClass.cs" />
+    <Compile Include="CardsClasses\EnjoyingThePeaceClass.cs" />
+    <Compile Include="CardsClasses\EnjoyingNatureClass.cs" />
+    <Compile Include="CardsClasses\ElectiveClassClass.cs" />
+    <Compile Include="CardsClasses\ANewLaptopClass.cs" />
+    <Compile Include="CardsClasses\ChoosingAMajorClass.cs" />
+    <Compile Include="CardsClasses\OralCommunicationClass.cs" />
+    <Compile Include="CardsClasses\ParkingViolationClass.cs" />
+    <Compile Include="CardsClasses\Physics151Class.cs" />
+    <Compile Include="CardsClasses\PressTheRightFloorClass.cs" />
+    <Compile Include="CardsClasses\ProfessorEnglertClass.cs" />
+    <Compile Include="CardsClasses\CECS277Class.cs" />
+    <Compile Include="CardsClasses\ProfessorHoffmanClass.cs" />
+    <Compile Include="CardsClasses\ProfessorMurgolosClass.cs" />
+    <Compile Include="CardsClasses\ProgramCrashesClass.cs" />
+    <Compile Include="CardsClasses\ResearchCompilersClass.cs" />
+    <Compile Include="CardsClasses\PassSoccerClassClass.cs" />
+    <Compile Include="CardsClasses\KIN253Class.cs" />
+    <Compile Include="CardsClasses\SoccerGoalieClass.cs" />
+    <Compile Include="CardsClasses\StudentParkingClass.cs" />
+    <Compile Include="CardsClasses\ScoreaGoalClass.cs" />
+    <Compile Include="CardsClasses\FallInThePondClass.cs" />
+    <Compile Include="CardsClasses\LateForClassClass.cs" />
+    <Compile Include="CardsClasses\TheBigGameClass.cs" />
+    <Compile Include="CardsClasses\CHEM111Class.cs" />
+    <Compile Include="CardsClasses\CECS105Class.cs" />
+    <Compile Include="CardsClasses\BuddyUpClass.cs" />
+    <Compile Include="CardsClasses\ExerciseMindAndBodyClass.cs" />
+    <Compile Include="CardsClasses\CECS100Class.cs" />
+    <Compile Include="CardsClasses\TheOutpostClass.cs" />
+    <Compile Include="CardsClasses\GoodByeProfessorClass.cs" />
+    <Compile Include="GameComplete.xaml.cs">
+      <DependentUpon>GameComplete.xaml</DependentUpon>
+    </Compile>
     <Compile Include="GameWindow.xaml.cs">
       <DependentUpon>GameWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\CardModel.cs" />
+    <Compile Include="Model\RemoveModel.cs" />
+    <Compile Include="Model\ScoreModel.cs" />
+    <Compile Include="Model\CardInterface.cs" />
     <Compile Include="Model\RoomModel.cs" />
-    <Compile Include="ViewModel\PlayerViewModel.cs" />
+    <Compile Include="RemoveFromHand.xaml.cs">
+      <DependentUpon>RemoveFromHand.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RewardSelection.xaml.cs">
+      <DependentUpon>RewardSelection.xaml</DependentUpon>
+    </Compile>
+    <Page Include="GameComplete.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="GameWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -85,6 +152,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="RemoveFromHand.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RewardSelection.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\PlayerModel.cs" />
@@ -119,10 +194,63 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="CSULBMap3.png" />
+    <Resource Include="Images\Craft.png" />
+    <Resource Include="Images\CSULBMap3.png" />
+    <Resource Include="Images\Integrity.png" />
+    <Resource Include="Images\Learning.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Year 1 Meet the Dean.png" />
+    <Resource Include="Images\Cards\A New Laptop.png" />
+    <Resource Include="Images\Cards\Buddy Up.png" />
+    <Resource Include="Images\Cards\Car Pool.png" />
+    <Resource Include="Images\Cards\CECS 100.png" />
+    <Resource Include="Images\Cards\CECS 105.png" />
+    <Resource Include="Images\Cards\CECS 201.png" />
+    <Resource Include="Images\Cards\CECS 228.png" />
+    <Resource Include="Images\Cards\CECS 274.png" />
+    <Resource Include="Images\Cards\CECS 277.png" />
+    <Resource Include="Images\Cards\CECS 282.png" />
+    <Resource Include="Images\Cards\CECS 285.png" />
+    <Resource Include="Images\Cards\CHEM 111.png" />
+    <Resource Include="Images\Cards\Choosing a Major.png" />
+    <Resource Include="Images\Cards\Elective Class.png" />
+    <Resource Include="Images\Cards\ENGL 317.png" />
+    <Resource Include="Images\Cards\Enjoying Nature.png" />
+    <Resource Include="Images\Cards\Enjoying the Peace.png" />
+    <Resource Include="Images\Cards\Exercising Mind and Body.png" />
+    <Resource Include="Images\Cards\Fall in the Pond.png" />
+    <Resource Include="Images\Cards\Finding the Lab.png" />
+    <Resource Include="Images\Cards\Good bye Professor.png" />
+    <Resource Include="Images\Cards\Have a Swim.png" />
+    <Resource Include="Images\Cards\KIN 253.png" />
+    <Resource Include="Images\Cards\Late for Class.png" />
+    <Resource Include="Images\Cards\LBSU vs UCI.png" />
+    <Resource Include="Images\Cards\Learning Linux.png" />
+    <Resource Include="Images\Cards\Learning Netbeans.png" />
+    <Resource Include="Images\Cards\Loud Buzzing.png" />
+    <Resource Include="Images\Cards\Lunch at Bratwurst Hall.png" />
+    <Resource Include="Images\Cards\Make a Friend.png" />
+    <Resource Include="Images\Cards\Make the Dean%27s List.png" />
+    <Resource Include="Images\Cards\Math 122.png" />
+    <Resource Include="Images\Cards\Math 123.png" />
+    <Resource Include="Images\Cards\Meet the Dean.png" />
+    <Resource Include="Images\Cards\Oral Communication.png" />
+    <Resource Include="Images\Cards\Parking Violation.png" />
+    <Resource Include="Images\Cards\Pass Soccer Class.png" />
+    <Resource Include="Images\Cards\PHIL 270.png" />
+    <Resource Include="Images\Cards\PHYS 152.png" />
+    <Resource Include="Images\Cards\Physics 151.png" />
+    <Resource Include="Images\Cards\Press th Right Floor.png" />
+    <Resource Include="Images\Cards\Professor Englert.png" />
+    <Resource Include="Images\Cards\Professor Hoffman.png" />
+    <Resource Include="Images\Cards\Professor Murgolo%27s.png" />
+    <Resource Include="Images\Cards\Program Crashes.png" />
+    <Resource Include="Images\Cards\Research Compilers.png" />
+    <Resource Include="Images\Cards\Score a Goal!.png" />
+    <Resource Include="Images\Cards\Soccer Goalie.png" />
+    <Resource Include="Images\Cards\Student Parking.png" />
+    <Resource Include="Images\Cards\The Big Game.png" />
+    <Resource Include="Images\Cards\The Outpost.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -5,17 +5,47 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSinCS", "BSinCS\BSinCS.csproj", "{2AC3E829-6B6D-4689-8FD0-C7025B6CD4B9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{7475E6DB-4C4B-4C18-96DD-F9B2EE01886B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{99BB8581-3D32-4EC1-8E9D-DE4429FE87A2}"
 	ProjectSection(SolutionItems) = preProject
-		BSinCS\CSULBMap3.png = BSinCS\CSULBMap3.png
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cards", "Cards", "{79969C3F-0BCC-4A09-904C-A3370B3EC42E}"
-	ProjectSection(SolutionItems) = preProject
-		BSinCS\Cards\Year 1 CECS 100.png = BSinCS\Cards\Year 1 CECS 100.png
-		BSinCS\Cards\Year 1 Good bye, Professor.png = BSinCS\Cards\Year 1 Good bye, Professor.png
-		BSinCS\Cards\Year 1 Meet the Dean.png = BSinCS\Cards\Year 1 Meet the Dean.png
-		BSinCS\Cards\Year 1 The Outpost.png = BSinCS\Cards\Year 1 The Outpost.png
+		BSinCS\Cards\A New Laptop.png = BSinCS\Cards\A New Laptop.png
+		BSinCS\Cards\Buddy Up.png = BSinCS\Cards\Buddy Up.png
+		BSinCS\Cards\CECS 100.png = BSinCS\Cards\CECS 100.png
+		BSinCS\Cards\CECS 105.png = BSinCS\Cards\CECS 105.png
+		BSinCS\Cards\CHEM 111.png = BSinCS\Cards\CHEM 111.png
+		BSinCS\Cards\Choosing a Major.png = BSinCS\Cards\Choosing a Major.png
+		BSinCS\Cards\Elective Class.png = BSinCS\Cards\Elective Class.png
+		BSinCS\Cards\Enjoying Nature.png = BSinCS\Cards\Enjoying Nature.png
+		BSinCS\Cards\Enjoying the Peace.png = BSinCS\Cards\Enjoying the Peace.png
+		BSinCS\Cards\Exercising Mind and Body.png = BSinCS\Cards\Exercising Mind and Body.png
+		BSinCS\Cards\Fall in the Pond.png = BSinCS\Cards\Fall in the Pond.png
+		BSinCS\Cards\Finding the Lab.png = BSinCS\Cards\Finding the Lab.png
+		BSinCS\Cards\Goodbye, Professor.png = BSinCS\Cards\Goodbye, Professor.png
+		BSinCS\Cards\KIN 253.png = BSinCS\Cards\KIN 253.png
+		BSinCS\Cards\Late for Class.png = BSinCS\Cards\Late for Class.png
+		BSinCS\Cards\Learning Linux.png = BSinCS\Cards\Learning Linux.png
+		BSinCS\Cards\Learning Netbeans.png = BSinCS\Cards\Learning Netbeans.png
+		BSinCS\Cards\Loud Buzzing.png = BSinCS\Cards\Loud Buzzing.png
+		BSinCS\Cards\Lunch at Bratwurst Hall.png = BSinCS\Cards\Lunch at Bratwurst Hall.png
+		BSinCS\Cards\Make a Friend.png = BSinCS\Cards\Make a Friend.png
+		BSinCS\Cards\Make the Dean's List.png = BSinCS\Cards\Make the Dean's List.png
+		BSinCS\Cards\Math 122.png = BSinCS\Cards\Math 122.png
+		BSinCS\Cards\Math 123.png = BSinCS\Cards\Math 123.png
+		BSinCS\Cards\Meet the Dean.png = BSinCS\Cards\Meet the Dean.png
+		BSinCS\Cards\Oral Communication.png = BSinCS\Cards\Oral Communication.png
+		BSinCS\Cards\Parking Violation.png = BSinCS\Cards\Parking Violation.png
+		BSinCS\Cards\Pass Soccer Class.png = BSinCS\Cards\Pass Soccer Class.png
+		BSinCS\Cards\Physics 151.png = BSinCS\Cards\Physics 151.png
+		BSinCS\Cards\Press th Right Floor.png = BSinCS\Cards\Press th Right Floor.png
+		BSinCS\Cards\Professor Englert.png = BSinCS\Cards\Professor Englert.png
+		BSinCS\Cards\Professor Hoffman.png = BSinCS\Cards\Professor Hoffman.png
+		BSinCS\Cards\Professor Murgolo's.png = BSinCS\Cards\Professor Murgolo's.png
+		BSinCS\Cards\Program Crashes.png = BSinCS\Cards\Program Crashes.png
+		BSinCS\Cards\Research Compilers.png = BSinCS\Cards\Research Compilers.png
+		BSinCS\Cards\Score a Goal!.png = BSinCS\Cards\Score a Goal!.png
+		BSinCS\Cards\Soccer Goalie.png = BSinCS\Cards\Soccer Goalie.png
+		BSinCS\Cards\Student Parking.png = BSinCS\Cards\Student Parking.png
+		BSinCS\Cards\The Big Game.png = BSinCS\Cards\The Big Game.png
+		BSinCS\Cards\The Outpost.png = BSinCS\Cards\The Outpost.png
 	EndProjectSection
 EndProject
 Global
@@ -31,9 +61,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{79969C3F-0BCC-4A09-904C-A3370B3EC42E} = {7475E6DB-4C4B-4C18-96DD-F9B2EE01886B}
 	EndGlobalSection
 	GlobalSection(TeamFoundationVersionControl) = preSolution
 		SccNumberOfProjects = 2

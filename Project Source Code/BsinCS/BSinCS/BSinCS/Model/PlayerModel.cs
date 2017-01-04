@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel;
 using RoomModel;
+using CardModel;
+using ScoreModel;
 
 namespace PlayerModel
 {
@@ -55,6 +57,65 @@ namespace PlayerModel
             {
                 _nextRoom = value;
                 RaisePropertyChanged("NextRoom");
+            }
+        }
+
+        private List<Card> _hand;
+
+        public List<Card> Hand
+        {
+            get { return _hand; }
+            set
+            {
+                _hand = value;
+                RaisePropertyChanged("Hand");
+            }
+        }
+
+        private Card _selectedCard;
+
+        public Card SelectedCard
+        {
+            get { return _selectedCard; }
+            set
+            {
+                _selectedCard = value;
+                RaisePropertyChanged("SelectedCard");
+            }
+        }
+
+        private Score _score;
+
+        public Score Score
+        {
+            get { return _score; }
+            set
+            {
+                _score = value;
+                RaisePropertyChanged("Score");
+            }
+        }
+
+        private String _selectedChip;
+
+        public String SelectedChip
+        {
+            get { return _selectedChip; }
+            set
+            {
+                _selectedChip = value;
+                RaisePropertyChanged("SelectedChip");
+            }
+        }
+
+        private bool _hasSuccessDiscarded;
+        public bool HasSuccessDiscarded
+        {
+            get { return _hasSuccessDiscarded; }
+            set
+            {
+                _hasSuccessDiscarded = value;
+                RaisePropertyChanged("HasSuccessDiscarded");
             }
         }
 

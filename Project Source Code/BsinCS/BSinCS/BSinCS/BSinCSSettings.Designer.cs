@@ -37,7 +37,7 @@ namespace BSinCS {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Donald")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Gagandeep")]
         public string AI1_Name {
             get {
                 return ((string)(this["AI1_Name"]));
@@ -46,7 +46,7 @@ namespace BSinCS {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Hillary")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Gaurav")]
         public string AI2_Name {
             get {
                 return ((string)(this["AI2_Name"]));
@@ -71,6 +71,101 @@ namespace BSinCS {
         public bool FalseRandom {
             get {
                 return ((bool)(this["FalseRandom"]));
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string SelectedChip {
+            get {
+                return ((string)(this["SelectedChip"]));
+            }
+            set {
+                this["SelectedChip"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string ChipsToChoose {
+            get {
+                return ((string)(this["ChipsToChoose"]));
+            }
+            set {
+                this["ChipsToChoose"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool ShouldRemoveCard {
+            get {
+                return ((bool)(this["ShouldRemoveCard"]));
+            }
+            set {
+                this["ShouldRemoveCard"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public global::System.Collections.Specialized.StringCollection CardsInHand {
+            get {
+                return ((global::System.Collections.Specialized.StringCollection)(this["CardsInHand"]));
+            }
+            set {
+                this["CardsInHand"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string CardToRemove {
+            get {
+                return ((string)(this["CardToRemove"]));
+            }
+            set {
+                this["CardToRemove"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Teleport {
+            get {
+                return ((bool)(this["Teleport"]));
+            }
+            set {
+                this["Teleport"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string TeleportRoom {
+            get {
+                return ((string)(this["TeleportRoom"]));
+            }
+            set {
+                this["TeleportRoom"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string Winner {
+            get {
+                return ((string)(this["Winner"]));
+            }
+            set {
+                this["Winner"] = value;
             }
         }
     }
